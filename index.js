@@ -11,7 +11,7 @@ const session = require('cookie-session')
 
 const app = express()
 
-const API_URL = "https://smarta-marta-backend.herokuapp.com/"
+const API_URL = "https://smarta-marta-backend.herokuapp.com"
 
 /* MIDDLEWARES */
 // Serve the static files from the React app
