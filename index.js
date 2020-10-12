@@ -4,8 +4,6 @@ const path = require('path')
 const bodyParser = require('body-parser')
 const axios = require('axios')
 
-const fetchUrl = require('fetch').fetchUrl
-
 const cookieParser = require('cookie-parser')
 const session = require('cookie-session')
 
