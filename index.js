@@ -181,7 +181,7 @@ app.get('/api/userlogin', async (req, res) => {
 
 // Handles any requests that don't match the ones above
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/client/index.html'))
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
 })
 
 // Names the port that will be used for prod and local development
