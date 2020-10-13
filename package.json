@@ -1,6 +1,9 @@
 {
   "name": "smarta-marta-front-end",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.9.0"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
